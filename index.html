@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raja Kirubakaran | IT Student & UI/UX Designer</title>
+<meta name="description" content="Portfolio of Raja Kirubakaran — B.Tech Information Technology student, UI/UX designer and aspiring software professional.">
+<style>
+:root{--bg:#08090d;--card:#11131a;--text:#f5f7fb;--muted:#a7adbb;--accent:#7c5cff;--accent2:#19d3ae;--border:#242735}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at 80% 0%,#21174b 0,transparent 32%),var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1100px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(8,9,13,.78);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.06)}
+.navin{height:70px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:22px;font-weight:800;letter-spacing:-1px}.logo span{color:var(--accent)}
+.links{display:flex;gap:24px;font-size:14px;color:var(--muted)}.links a:hover{color:white}
+.hero{min-height:calc(100vh - 70px);display:grid;place-items:center;padding:80px 0}
+.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:50px;align-items:center}
+.badge{display:inline-flex;padding:7px 12px;border:1px solid #343846;border-radius:999px;color:#cfd3de;background:#11131a;font-size:13px;margin-bottom:20px}
+h1{font-size:clamp(45px,7vw,78px);line-height:1.02;letter-spacing:-4px;margin-bottom:20px}
+.gradient{background:linear-gradient(100deg,#fff,#a99bff 45%,#5ff1d1);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:650px;color:var(--muted);font-size:18px}
+.buttons{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
+.btn{padding:12px 19px;border-radius:12px;border:1px solid var(--border);font-weight:700;font-size:14px}
+.primary{background:var(--accent);border-color:var(--accent)}.primary:hover{filter:brightness(1.1)}
+.secondary:hover{border-color:#555b70}
+.profile{height:300px;width:300px;border-radius:50%;margin:auto;background:linear-gradient(135deg,#7c5cff,#19d3ae);padding:3px;box-shadow:0 0 90px rgba(124,92,255,.25)}
+.profile-inner{width:100%;height:100%;border-radius:50%;background:#0c0e13;display:grid;place-items:center;text-align:center;padding:30px}
+.initials{font-size:75px;font-weight:900;letter-spacing:-6px}.profile-inner small{color:var(--muted)}
+section{padding:90px 0}.section-title{font-size:35px;letter-spacing:-1.5px;margin-bottom:12px}.section-sub{color:var(--muted);margin-bottom:35px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:rgba(17,19,26,.82);border:1px solid var(--border);border-radius:18px;padding:25px;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:#3d4254}
+.card h3{margin-bottom:8px}.card p{color:var(--muted);font-size:14px}
+.tag{display:inline-block;margin:10px 6px 0 0;padding:5px 9px;border-radius:7px;background:#1a1d27;color:#cbd0dc;font-size:12px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:25px}.about .card{height:100%}
+.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{padding:10px 14px;border:1px solid var(--border);border-radius:10px;color:#d9dce5;background:#101219}
+.contact{text-align:center;background:linear-gradient(180deg,transparent,#11101c)}
+.contact p{color:var(--muted);max-width:650px;margin:0 auto 25px}
+footer{padding:30px 0;border-top:1px solid var(--border);color:#777d8c;font-size:13px}
+@media(max-width:800px){.hero-grid,.about{grid-template-columns:1fr}.profile{height:220px;width:220px}.grid{grid-template-columns:1fr}h1{letter-spacing:-2.5px}.links{display:none}.hero{padding:55px 0}section{padding:65px 0}}
+</style>
+</head>
+<body>
+<nav><div class="container navin">
+<div class="logo">Raja<span>.</span></div>
+<div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header class="hero"><div class="container hero-grid">
+<div>
+<div class="badge">B.Tech Information Technology • 4th Semester</div>
+<h1>Hi, I'm <span class="gradient">Raja Kirubakaran.</span></h1>
+<p>I’m an Information Technology student interested in UI/UX design, web development and building practical digital products that are simple, useful and visually engaging.</p>
+<div class="buttons"><a class="btn primary" href="#projects">View My Work</a><a class="btn secondary" href="#contact">Contact Me</a></div>
+</div>
+<div class="profile"><div class="profile-inner"><div><div class="initials">RK</div><small>IT • UI/UX • Web</small></div></div></div>
+</div></header>
+
+<section id="about"><div class="container">
+<h2 class="section-title">About Me</h2><p class="section-sub">A quick introduction</p>
+<div class="about">
+<div class="card"><h3>Who I am</h3><p>I’m pursuing B.Tech Information Technology and currently developing my skills across web technologies, databases, UI/UX and software projects. I enjoy turning ideas into clean interfaces and useful applications.</p></div>
+<div class="card"><h3>What I'm looking for</h3><p>Internship and entry-level opportunities where I can learn from real projects, contribute to a team and grow as a product-focused IT professional.</p></div>
+</div></div></section>
+
+<section id="skills"><div class="container">
+<h2 class="section-title">Skills</h2><p class="section-sub">Technologies and areas I'm working with</p>
+<div class="skills">
+<span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JavaScript</span><span class="skill">PHP</span><span class="skill">Java</span><span class="skill">C</span><span class="skill">SQL</span><span class="skill">DBMS</span><span class="skill">Figma</span><span class="skill">UI/UX Design</span><span class="skill">Git & GitHub</span><span class="skill">Responsive Design</span>
+</div></div></section>
+
+<section id="projects"><div class="container">
+<h2 class="section-title">Featured Projects</h2><p class="section-sub">Selected academic and design projects</p>
+<div class="grid">
+<div class="card"><h3>Food Waste Monitoring System</h3><p>A DBMS mini project focused on tracking food waste, records and related data to support better monitoring and management.</p><span class="tag">DBMS</span><span class="tag">SQL</span><span class="tag">ER Diagram</span></div>
+<div class="card"><h3>RideSafe</h3><p>A road-safety focused mobile app concept with a clean, modern interface designed in a Figma-style product workflow.</p><span class="tag">UI/UX</span><span class="tag">Figma</span><span class="tag">Mobile App</span></div>
+<div class="card"><h3>Smart Library Management</h3><p>A concept for managing books, users, borrowing and library records through a simple digital system.</p><span class="tag">Web</span><span class="tag">DBMS</span><span class="tag">UI Design</span></div>
+</div></div></section>
+
+<section><div class="container">
+<h2 class="section-title">Education</h2><p class="section-sub">Academic background</p>
+<div class="card"><h3>B.Tech Information Technology</h3><p>DMI Engineering College, Aralvaimozhi</p><p style="margin-top:8px">Currently studying • 4th Semester • Anna University – Regulation 2021</p></div>
+</div></section>
+
+<section id="contact" class="contact"><div class="container">
+<h2 class="section-title">Let's Connect</h2>
+<p>Interested in my work or want to discuss an internship, project or design idea? Reach out through the links below.</p>
+<div class="buttons" style="justify-content:center">
+<a class="btn primary" href="mailto:YOUR_EMAIL@example.com">Email Me</a>
+<a class="btn secondary" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+<a class="btn secondary" href="https://github.com/" target="_blank">GitHub</a>
+</div>
+<p style="font-size:12px;margin-top:22px">Replace the email, LinkedIn and GitHub links with your real profiles before publishing.</p>
+</div></section>
+
+<footer><div class="container">© 2026 Raja Kirubakaran. Built with HTML & CSS.</div></footer>
+</body>
+</html>
